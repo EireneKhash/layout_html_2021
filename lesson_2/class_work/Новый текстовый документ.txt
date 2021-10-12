@@ -1,0 +1,60 @@
+/* общие стили */
+body {
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* стили хэдэра*/
+header {
+  background-color: aquamarine;
+}
+/* стили навигации */
+.main-menu {
+  background-color: cadetblue;
+}
+/* стили контентной части */
+section {
+  background-color: cyan;
+}
+.section-item {
+  background-color: darkturquoise;
+}
+/* стили сайдбара */
+.sidebar-right {
+  background-color: darkviolet;
+}
+/* стили футера */
+footer {
+  background-color: dodgerblue;
+}
+/* пробные стили */
+.orange {
+  background-color: orange;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+.pink {
+  background-color: pink;
+  padding: 20px;
+  box-sizing: border-box;
+  /* margin: 25px; */
+}
+/* .block1,
+.block4 { */
+/* align-self: start; */
+/*   width: 100%;
+}
+.block2,
+.block3 { */
+/* align-self: flex-end; */
+/*  width: calc(50% - 50px);
+} */
