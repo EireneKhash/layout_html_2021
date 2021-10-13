@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+}
+
+header {
+  background-color: #fff9f9;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  line-height: 49px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0;
+}
+
+.section-item1,
+.section-item2,
+.section-item3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 7% 7%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.central-text {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  height: 283px;
+  margin: 0;
+  border-top: 1px solid #ff445a;
+  border-bottom: 1px solid #ff445a;
+  color: #ff445a;
+}
+
+.section-item4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 0 0;
+}
+
+.bottom-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffb5b5;
+  color: #ffffff;
+  height: 80px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  align-items: center;
+}
